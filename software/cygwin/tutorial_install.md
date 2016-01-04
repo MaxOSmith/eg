@@ -1,6 +1,7 @@
+# Cygwin Installation
 By now Window's users are probably wishing they could have one of those wonderful Linux terminals on their home computer. Cygwin is exactly that, it's a download-able bash shell (terminal). I'm going to quickly walk you through the optimal installation and include some quick-tips.
 
-##Installation
+## Installation
 
 1. Download the appropriate set-up file from: https://cygwin.com/install.html
 
@@ -17,6 +18,8 @@ By now Window's users are probably wishing they could have one of those wonderfu
 7. Wait for the 'Cygwin Setup - Select Packages' menu to appear. This menu is for downloading the additional tools/software you want to have access too from Cygwin (things like emacs/vim, g++, etc.). By default Cygwin will force you to rerun this entire installation process to get more packages, but we're better than that. We're going to set-up a package manager. This will allow us to in the future download new tools with just a simple terminal command.
 
 8. At the top of the menu there's a search box. In order to install a particular package you should type the name in the search box and the 'Category' options should reduce in the explorer below. You can expand the 'Category' by click the '+' button to see the associated packages. In this case we're going to exemplify with the package 'wget', so if you search for it you end up with four categories. One can infer which 'Category' it actually falls in, but lets assume we don't know where it is. Expand all the categories. Then in the package column you can see the full package name, we want 'wget', which we can see is under the 'Web' 'Category'. Clicking on 'Skip' will change it to the version number to install. In this example it changed to '1.16.3-1' as shown below:
+
+![Package Skipping Example](res/png/packages.png)
 
 9. Install the following packages: (Web) 'wget', (Base) 'tar', (Archive) 'bzip2', (Editors) 'vim', (Editors) 'emacs'. Click next. Make sure 'Select requied packages' is checked off and click next again. It will now install, this will take a bit. Click Finish when it does.
 
@@ -36,7 +39,7 @@ By now Window's users are probably wishing they could have one of those wonderfu
 There's tons more you can do, but this should allow you to get moving! You should now be able to compile, make, and debug a c++ program from your warm cozy Windows computer.
 
 
-##Quick Tips:
+## Quick Tips:
 - Cygwin runs a local Linux structured file directory, which you can find in the installation directory of Cygwin. (i.e., "D:\cygwin64\home\USERNAME\" --> "/home/MaxSD_000")
 
 - If you want to open a file with your system's default application run the following command (this example opens up a pdf viewer - Adobe Reader):
@@ -61,4 +64,3 @@ Now we can build LaTeX pdfs as follows (in Cygwin):
   ```
   apt-cyg searchall SEARCHSTRING
   ```
-
