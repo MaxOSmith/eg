@@ -1,7 +1,7 @@
 # Makefiles for 280
 Makefiles are convenient way to organize code compilation. It allows you to refer to very large complicated build processes with very simple and short code calls. To exemplify, we're going to consider the canonical "Hello World" program.
 
-```
+```c++
 // main.cpp
 #include <iostream>
 
@@ -50,7 +50,7 @@ So now we need to actually implement this function. Makefiles are conveniently a
 
 For our "Hello World!" example, we are dependent on our main.cpp file, so we add it to the list of our dependencies. We specified our commandName as "build," and also described our bash commands earlier. This allows us to write our Makefile as so (please note that '#' are considered comment lines in Makefiles):
 
-```
+```make
 # Makefile
 
 build: main.cpp
