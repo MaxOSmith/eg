@@ -25,15 +25,15 @@ By now Window's users are probably wishing they could have one of those wonderfu
 
 10. Run Cygwin. Yay a terminal! But we're not done yet, we want a package manager. so run the following commands:
   ```
-  wget rawgit.com/transcode-open/apt-cyg/master/apt-cyg
-  install apt-cyg /bin
+  lynx -source rawgit.com/svnpenn/sage/master/sage > sage
+  install sage /bin
   ```
-11. You can now install packages using the 'apt-cyg' program, notice how the name is similar to 'apt-get' for Linux. Here's some examples that you'll probably want for 280 & 281:
+11. You can now install packages using the 'sage' program, notice how the name is similar to 'apt-get' for Linux. Here's some examples that you'll probably want for 280 & 281:
 
   ```
-  apt-cyg install gcc-g++
-  apt-cyg install make
-  apt-cyg install gdb
+  sage install gcc-g++
+  sage install make
+  sage install gdb
   ```
 
 There's tons more you can do, but this should allow you to get moving! You should now be able to compile, make, and debug a c++ program from your warm cozy Windows computer.
@@ -62,5 +62,5 @@ Now we can build LaTeX pdfs as follows (in Cygwin):
 
 - Searching for packages:
   ```
-  apt-cyg searchall SEARCHSTRING
+  sage searchall SEARCHSTRING
   ```
