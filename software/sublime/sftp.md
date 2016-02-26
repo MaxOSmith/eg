@@ -8,7 +8,7 @@ Requires [Package Control](https://github.com/MaxOSmith/eg/sublime/README.md), f
 
 1. (Ctrl/Cmd)+Shift+p
 2. In the command palette window select *Package Control: Install Package*, you may just start typing any part of it and hit enter when it's highlighted.
-3. In the next window select *Sublime SFTP*, again you may just type *SFTP* and hit enter.
+3. In the next window select *SFTP*.
 
 ## Usage
 
