@@ -16,6 +16,7 @@ Most of the functionality is through the command palette, which may be opened th
 1. In the folder that you wish to make a workspace, think of this as a shared Google Drive folder, open the command palette and run the command `Floobits - Join Workspace`. 
 2. This should prompt you for the workspace URL, which you may get by making a new workspace on Floobits.com and grabbing the URL. This will look something like `https://floobits.com/USERNAME/WORKSPACE`.
 3. This will create two files `.floo` and `.flooignore`. The `.floo` file contains the configurations, like the workspace URL. And `.flooignore` is the files to ignore and not share, similar to Git's `.gitignore`. 
+4. In the command palette you may join and leave workspaces as necessary. 
 
 ### Tips
 - Add `sftp-config.json` to your `.flooignore`
