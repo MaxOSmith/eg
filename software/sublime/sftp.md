@@ -23,14 +23,14 @@ Requires [Package Control](https://github.com/MaxOSmith/eg/sublime/README.md), f
   - `user`: this is the username you use to login to your server, for CAEN this would be your uniqname. 
   - `remote_path`: the path to the folder on the server that you want to sync-to.
 Here's an example of the final product (just the lines of interest):
-```javascript
-    "host": "login.engin.umich.edu",
-    "user": "mxsmith",
-    //"password": "password",
-    //"port": "22",
-    
-    "remote_path": "/home/mxsmith/16W/EECS_482/Projects/p3/",
-```
+  ```javascript
+      "host": "login.engin.umich.edu",
+      "user": "mxsmith",
+      //"password": "password",
+      //"port": "22",
+      
+      "remote_path": "/home/mxsmith/16W/EECS_482/Projects/p3/",
+  ```
 6. Now you can right-click on a file and upload it to the remote path (SFTP/FTP > Upload File)
 7. You may find this annoying to have to upload on every save manually. Setting `upload_on_save` to `true` will automagically upload the file whenever it is saved. Check out the other options and see if they interest you. Also check out the options in the right-click menu for SFTP/FTP and familiarize yourself with your options.
 
