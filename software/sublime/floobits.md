@@ -1,9 +1,7 @@
 # Floobits
-
 Pair-programming the way it was meant to be.
 
 ## Installation
-
 Requires [Package Control](https://github.com/MaxOSmith/eg/sublime/README.md), for installation. 
 
 1. `(Ctrl/Cmd)+Shift+p`
@@ -13,7 +11,6 @@ Requires [Package Control](https://github.com/MaxOSmith/eg/sublime/README.md), f
 ## Usage
 
 ### Basic
-
 Most of the functionality is through the command palette, which may be opened through `(Ctrl/Cmd)+Shift+p`. 
 
 1. In the folder that you wish to make a workspace, think of this as a shared Google Drive folder, open the command palette and run the command `Floobits - Join Workspace`. 
@@ -21,10 +18,8 @@ Most of the functionality is through the command palette, which may be opened th
 3. This will create two files `.floo` and `.flooignore`. The `.floo` file contains the configurations, like the workspace URL. And `.flooignore` is the files to ignore and not share, similar to Git's `.gitignore`. 
 
 ### Tips
-
 - Add `sftp-config.json` to your `.flooignore`
 
-1. 
 
 ## References
 - https://floobits.com
