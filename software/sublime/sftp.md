@@ -37,6 +37,13 @@ Here's an example of the final product (just the lines of interest):
 ### Tips
 
 - You should add `sftp-config.json` to your `.gitignore` file for those using Git as version control.
+- If you have a fun `.bashrc`, it might cause SFTP to hang on connection. To circumvent this, which is an issue of only loading your profile for certain shell types, modify your `.bashrc` to something of this nature:
+  ```
+  if [ "$SSH_TTY" ]
+  then
+    source ~/profile/.bashrc
+  fi
+  ```
 
 ## References
 - https://wbond.net/sublime_packages/sftp
